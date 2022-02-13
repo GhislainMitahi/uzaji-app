@@ -1,0 +1,44 @@
+.word {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: rgb(210, 221, 217);
+    padding: 12px;
+}
+
+.word>h1 {
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+
+.onWord {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 300px;
+    background: #000;
+    color: #fff;
+    width: inherit
+}
+
+.onWord>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onWord> :first-child {
+    border: 1px solid #ffff;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.onWord :nth-child(2) {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}

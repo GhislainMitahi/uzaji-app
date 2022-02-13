@@ -1,0 +1,39 @@
+    .produit {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: auto;
+        background-color: rgb(39, 43, 39);
+        color: white;
+    }
+    
+    .produit h1 {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        margin: 20px;
+        letter-spacing: 3px;
+    }
+    
+    .blocProduit {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: .5em;
+        text-align: center;
+    }
+    
+    .blocProduit div {
+        height: 200px;
+        width: 280px;
+        background-color: rgb(27, 184, 163);
+    }
+    
+    .pagination {
+        margin: 20px;
+        font-size: 1.2em;
+    }
+    
+    .pagination span {
+        text-transform: uppercase;
+    }

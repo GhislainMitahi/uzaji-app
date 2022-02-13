@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: auto;
+    width: 100%;
+    background: rgb(32, 32, 32);
+    margin-top: 20px
+}
+
+.footerOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: inherit;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+
+.footerOne div {
+    border-right: 0.5px solid rgb(241, 236, 236)
+}
+
+.footerOne>:nth-child(3) {
+    border: none;
+}
+
+.footerTwo {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(6, 11, 51);
+    color: #fff;
+}

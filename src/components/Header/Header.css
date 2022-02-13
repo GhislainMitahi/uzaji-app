@@ -1,0 +1,84 @@
+    .header {
+        display: flex;
+        flex-flow: column wrap;
+        background: blue;
+        height: auto;
+        color: white;
+    }
+    /* PREMIER NIVEAU DE LA BAR DE MENU*/
+    
+    .levelOne {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        width: 100%;
+        background: #003566;
+        height: 60px;
+        border-bottom: 1px solid #000;
+    }
+    
+    .levelOne .logInput {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    
+    .levelOne .logInput p {
+        margin: 0 20px;
+    }
+    
+    .levelOne .logInput p input {
+        height: 30px;
+        width: 150%;
+        color: #000;
+        padding-left: 12px;
+        border-radius: 10px;
+        /* text-align: center; */
+    }
+    
+    .levelOne .allMenu {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        letter-spacing: 1px;
+    }
+    
+    .levelOne .allMenu p {
+        margin: 0 20px;
+    }
+    /* DEUXIEME NIVEAU DE LA BAR DE MENU*/
+    
+    .levelTwo {
+        display: flex;
+        flex-flow: row wrap;
+        background: #073b4c;
+        height: auto;
+    }
+    
+    .levelTwo .services {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        letter-spacing: 1px;
+    }
+    
+    .levelTwo .services p {
+        border: 1px solid #fff;
+        border-radius: 10px;
+        margin: 0 10px;
+        padding: 5px;
+    }
+    
+    .levelTwo .notifications {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        letter-spacing: 1px
+    }
+    
+    .levelTwo .notifications p {
+        margin: 0 20px;
+    }

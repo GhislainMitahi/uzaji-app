@@ -1,0 +1,24 @@
+            .valuePro {
+                display: flex;
+                flex-flow: row wrap;
+                background: #00b4d8;
+                color: white;
+                height: 500px;
+            }
+            
+            .valuePro div {
+                width: 50%;
+            }
+            
+            .valuePro :first-child h1 {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 50px 20px 50px 20px;
+                font-size: 2em;
+                font-weight: bold;
+                font-style: italic;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                line-height: 50px;
+            }
