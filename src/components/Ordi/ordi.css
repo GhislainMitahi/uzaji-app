@@ -1,0 +1,22 @@
+.mainOrdi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.ordi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: auto;
+}
+
+.ordi>p {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    text-align: center;
+}

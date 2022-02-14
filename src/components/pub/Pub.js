@@ -9,84 +9,54 @@ import v5 from './pubImages/v5.jpg';
 const Pub = () => {
     return (
 
-        <
-        div className = "main" >
-        <
-        h1 > campagne publicitaire < /h1> <
-        div className = "pub" >
+        <div className = "main">
+            <h1 > campagne publicitaire</h1> 
+            <div className = "pub">
+            <p>
+                <img src = { v1 } alt="" />
+                <span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum!</span> 
+            </p>
 
-        <
-        p >
-        <
-        img src = { v1 }
-        /> <
-        span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! < /span> < /
-        p >
+            <p>
+                <img src ={ v2 } alt=""/>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! </span>
+            </p>
 
-        <
-        p >
-        <
-        img src = { v2 }
-        /> <
-        span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! < /span> < /
-        p >
+            <p>
+                <img src = { v3 } alt=""/>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! </span> 
+            </p>
 
-        <
-        p >
-        <
-        img src = { v3 }
-        /> <
-        span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! < /span> < /
-        p >
+            <p>
+                <img src = { v4 } alt=""/>
+                <span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! </span> 
+            </p>
 
-        <
-        p >
-        <
-        img src = { v4 }
-        /> <
-        span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! < /span> < /
-        p >
+            <p>
+                <img src = { v5 } alt=""/>
+                <span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! </span> 
+            </p>
 
-        <
-        p >
-        <
-        img src = { v5 }
-        /> <
-        span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! < /span> < /
-        p >
+            <p>
+                <img src = { v1 } alt=""/> 
+                <span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! </span> 
+        </p>
 
-        <
-        p >
-        <
-        img src = { v1 }
-        /> <
-        span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! < /span> < /
-        p >
+        <p>
+                <img src = { v2 } alt=""/>
+                <span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! </span>
+            </p>
 
-        <
-        p >
-        <
-        img src = { v2 }
-        /> <
-        span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! < /span> < /
-        p >
+            <p>
+            
+            <img src = { v3 } alt=""/>
+            
+            <span> Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! </span> 
+            </p>
 
-        <
-        p >
-        <
-        img src = { v3 }
-        /> <
-        span > Lorem ipsum dolor, sit amet consectetur adipisicing elit.Aut, nostrum! < /span> < /
-        p >
-
-        <
-        span className = "notificationBar" > notification encours < /span>
-
-        <
-        /div>
-
-        <
-        /div>
+            <span className = "notificationBar" > notification encours </span>
+            </div>
+        </div>
 
 
 
@@ -101,44 +71,44 @@ const Pub = () => {
         // <
         // p >
         // <
-        // img src = { v1 }
+        // img src = { v1 } alt=""
         // /> <
         // span > Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptatum, nulla! < span >
         // <
         // /p>
 
         // <
-        // p > < img src = { v2 }
+        // p > < img src = { v2 } alt=""
         // / > <
-        // span > Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptatum, nulla! < /span></p >
+        // span > Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptatum, nulla! </span></p >
 
         // <
-        // p > < img src = { v3 }
+        // p > < img src = { v3 } alt=""
         // /><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nulla!</span > < /p>  
 
         // <
-        // p > < img src = { v4 }
+        // p > < img src = { v4 } alt=""
         // /><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nulla!</span > < /p>  
 
         // <
-        // p > < img src = { v5 }
+        // p > < img src = { v5 } alt=""
         // /> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nulla!</span > < /p>  
 
         // <
-        // p > < img src = { v1 }
+        // p > < img src = { v1 } alt=""
         // /> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nulla!</span > < /p>  
 
         // <
-        // p > < img src = { v2 }
+        // p > < img src = { v2 } alt=""
         // /><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nulla!</span > < /p>  
 
         // <
-        // p > < img src = { v4 }
+        // p > < img src = { v4 } alt=""
         // /><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nulla! < /
         // span > < /p >
 
         // <
-        // span className = "notificationBar" > Barre notifications 5 < /span> 
+        // span className = "notificationBar" > Barre notifications 5 </span> 
 
         // <
         // /

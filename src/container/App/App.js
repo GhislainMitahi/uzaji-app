@@ -1,33 +1,22 @@
-import Header from "../../components/Header/Header";
-import ValuePro from "../../components/valuePro/valuePro";
-import Pub from "../../components/pub/Pub";
-import Produit from "../../components/produits/Produit";
-import Word from "../../components/Word/Word";
-import Footer from "../../components/footer/Footer";
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './Home';
+import AllProducts from '../../components/AllProducts/AllProducts';
 import './App.css';
 
+
 function App() {
-    // states
-    // const [search, setSearch] = useState('search')
-
-    //finctions
-
-    return ( <
-        div className = "App" >
-        <
-        Header / >
-        <
-        ValuePro / >
-        <
-        Pub / >
-        <
-        Produit / >
-        <
-        Word / >
-        <
-        Footer / >
-        <
-        /div >
+//  const params = userParams() 
+//  console.log(params)
+    
+    return ( 
+        <div className = "App">
+            <BrowserRouter>
+                <Routes>
+                    <Route path = "/" element={<Home/>}/>
+                    <Route path = "/AllProducts" element={<AllProducts/>}/>
+                </Routes>
+            </BrowserRouter>
+        </div>
     );
 }
 

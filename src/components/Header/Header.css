@@ -20,7 +20,7 @@
     .levelOne .logInput {
         display: flex;
         justify-content: space-between;
-        width: 50%;
+        width: 60%;
     }
     
     .levelOne .logInput p {
@@ -29,17 +29,18 @@
     
     .levelOne .logInput p input {
         height: 30px;
-        width: 150%;
+        width: 100%;
+        margin-right: -10px;
         color: #000;
         padding-left: 12px;
         border-radius: 10px;
-        /* text-align: center; */
     }
     
     .levelOne .allMenu {
+        font-size: 13px;
         display: flex;
         justify-content: flex-end;
-        width: 50%;
+        width: 40%;
         letter-spacing: 1px;
     }
     
@@ -51,6 +52,7 @@
     .levelTwo {
         display: flex;
         flex-flow: row wrap;
+        font-size: 14px;
         background: #073b4c;
         height: auto;
     }

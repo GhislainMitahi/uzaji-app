@@ -6,8 +6,7 @@ const ValuePro = () => {
         div className = "valuePro" >
         <
         div > < h1 > UZAJI Business Vous rend la vie facile, se sentir à la hauteur avec Nous est notre priotité <
-        /h1 >  <
-        /
+        /h1 >  < /
         div > <
         div > < img src = {
             vp
@@ -18,3 +17,5 @@ const ValuePro = () => {
 }
 
 export default ValuePro;
+
+// Value propoposition
